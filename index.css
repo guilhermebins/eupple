@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cb6aff61;
+}
+
+header {
+  background-color: #5a3673;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 118px 32px 118px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 18px 0 0;
+}
+
+img {
+  border-radius: 32px;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 32px;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+
+.paragraph {
+  color: #000;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+
+.button {
+  background-color: #5a3673;
+  color: #fff;
+  padding: 12px 64px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#aboutus,
+#euwatch,
+#eubook,
+#euphone,
+#eupad {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 64px 80px 128px 80px;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  border-radius: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+#euphone .paragraph,
+#euphone h2,
+#eupad .paragraph,
+#eupad h2 {
+  text-align: right;
+  max-width: 100%;
+  gap: 32px;
+  margin-left: 22%;
+}
+
+#euvisionpro {
+  display: block;
+  text-align: center;
+}
+
+#euvisionpro h2,
+#euvisionpro .paragraph {
+  margin: 32px auto;
+  max-width: 60%;
+}
+
+#euvisionpro .paragraph {
+  margin-bottom: 128px;
+}
+
+#faq {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+  margin: 32px 120px 32px 120px;
+}
+
+#faq h2 {
+  font-size: 44px;
+}
+
+.faq-tag h3 {
+  border: 2px solid #5a3673;
+  border-radius: 8px;
+  font-size: 18px;
+  max-width: 90%;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.faq-tag .paragraph {
+  border-left: 1px solid #5a3673;
+  border-bottom: 1px solid #5a3673;
+  border-right: 1px solid #5a3673;
+  border-radius: 0 0 8px 8px;
+  margin-top: -36px;
+  padding: 0 24px;
+  max-width: 90%;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.faq-tag.active .paragraph {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+footer {
+  background-color: #5a36737b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 84px;
+  padding: 32px 64px;
+}
+
+.imgslogan {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.fastnavigation nav a,
+.findus p {
+  display: block;
+  text-align: left;
+  justify-content: center;
+  color: #000;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.findus p a {
+  color: #000;
+}
+
+#copyright {
+  background-color: #9d9d9d;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 24px 32px;
+}
+
+#copyright a {
+  color: #000;
+  font-weight: normal;
+  margin-right: 5%;
+}
